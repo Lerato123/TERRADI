@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="icon" href="assets/img/logo(s)/logo-removebg-preview (1).png">
 
     <!-- boxicon icons link  -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- cdjns icons link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- animation link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <script defer src="assets/script/script.js"></script>
     <title>Teeradi</title>
 </head>
 <body>
@@ -18,13 +22,18 @@
     <div class="header container">
         <nav>
             <a class="logo" href="index.html"><img src="assets/img/logo(s)/logo-removebg-preview (1).png" alt=""></a>
-
+            
+            <button>
+                <i class="fas fa-bars"></i>
+            </button>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                
             </ul>
+            
         </nav>
 
         <div class="hero-content">
@@ -72,19 +81,19 @@
                                 </div> -->
 
                                 <div class="about_inner_content_details">
-                                    <details>
+                                    <details name="details">
                                         <summary>Aim</summary>
                                         <p>TEERADI  aims to empower emerging African writers, voice artists, and sound designers, creating a collaborative platform where fresh talent and experienced creators come together to shape authentic audio experiences rooted in African heritage and contemporary realities</p>
                                     </details>
                                 </div>
                                 <div class="about_inner_content_details">
-                                    <details>
+                                    <details name="details">
                                         <summary>Vision</summary>
                                         <p>To be the leading storyteller of African voices and experiences through immersive audio-dramas and animation that bridge diverse cultures, traditions, and modern narratives, bringing the heart of South Africa’s stories to a global stage.</p>
                                     </details>
                                 </div>
                                 <div class="about_inner_content_details">
-                                    <details>
+                                    <details name="details">
                                         <summary>Mission Statement</summary>
                                         <p>Our mission is to craft high-quality, innovative audio-dramas and animation that connect with listeners on an emotional level and highlight the richness of African stories, giving voice to local communities and connecting audiences worldwide. We are dedicated to providing content that is culturally insightful, emotionally echoing, and universally appealing, fostering a sense of pride, unity, and appreciation for African narratives.</p>
                                     </details>
@@ -192,18 +201,18 @@
                     <div class="card">
                         <img src="assets/img/Blog/blog-1.jpg" alt="">
                         <div class="card_content">
-                            <h3>Blog 1</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto unde, non tempora veritatis ipsam doloremque doloribus cupiditate asperiores. </p>
-                            <a href="#" class="btn">Read More</a>
+                            <h3>Capturing Stories Through the Lens</h3>
+                            <p>At TEERADI, we believe that every great story starts with a single frame. The camera is not just a tool; it’s the heart of creativity, capturing the emotions, moments, and details that words alone cannot express. Whether it’s a dramatic scene or a subtle nuance, the camera immortalizes the essence of storytelling. </p>
+                            <!-- <a href="#" class="btn">Read More</a> -->
                         </div>
                     </div>
         
                     <div class="card">
                         <img src="assets/img/Blog/blog-2.jpg" alt="">
                         <div class="card_content">
-                            <h3>Blog 2</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto unde, non tempora veritatis ipsam doloremque doloribus cupiditate asperiores. </p>
-                            <a href="#" class="btn">Read More</a>
+                            <h3>Shaping the Perfect Sound</h3>
+                            <p>Sound is the soul of any story, and at TEERADI, we craft it to perfection. With the help of sophisticated sound controllers and equalizers, we fine-tune every beat, voice, and background effect to create an immersive experience for our listeners. </p>
+                            <!-- <a href="#" class="btn">Read More</a> -->
                         </div>
         
                     </div> 
@@ -211,9 +220,11 @@
                     <div class="card">
                         <img src="assets/img/Blog/blog-3.jpg" alt="">
                         <div class="card_content">
-                            <h3>Blog 3</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto unde, non tempora veritatis ipsam doloremque doloribus cupiditate asperiores. </p>
-                            <a href="#" class="btn">Read More</a>
+                            <h3>Unveiling the Magic Behind the Curtain</h3>
+                            <p>
+
+                                From brainstorming ideas to setting up equipment and refining performances, every step is crucial. Our team works tirelessly to ensure every sound is crisp, every light is perfect, and every detail aligns with the story’s vision. The energy in the studio is electric—actors breathing life into their characters, directors fine-tuning scenes, and technicians weaving it all together into an extraordinary experience. </p>
+                            <!-- <a href="#" class="btn">Read More</a> -->
                         </div>
                     </div>
                 </div>
@@ -234,24 +245,31 @@
                     <section class="contact-section" id="contact-us">
                         <div class="contact-info">
                           <h2>Contact Us</h2>
-                          <p><i class="bx bx-map"></i> 32, Avenue ve Newyork, 321904 Newyork</p>
-                          <p><i class="bx bx-envelope"></i> hello@loremipsum.com</p>
+                          <p><i class="bx bx-map"></i> 11 Muisvoël avenue Birch Acres 1618 </p>
+                          <p><i class="bx bx-envelope"></i> teeradi.pty@gmail.com</p>
                           <p><i class="bx bx-phone"></i> +27 66 197 1707</p>
                          
+                          <div class="icon-contact">
+                            <h4>Reach out using social links</h4>
+                              <a href="https://wa.me/0661971707"><i class="bx bxl-whatsapp"></i></a>
+                              <a href="#"><i class="bx bxl-facebook"></i></a>
+                          </div>
                         </div>
 
-                        <div class="contact-form">
-                          <!-- <h2>Get in Touch</h2> -->
-                          <!-- <p>Feel free to drop us a line below!</p> -->
-                          <!-- <form action="https://api.web3forms.com/submit" method="post">
-                            <input type="hidden" name="access_key" value="af2258d0-958e-459a-936d-3f44f2dd2525">
-                            <input type="text" placeholder="Your Name" required>
-                            <input type="email" placeholder="Your Email" required>
-                            <textarea placeholder="Typing your message here......" required></textarea>
-                            <button type="submit">Send</button>
-                          </form> -->
 
-                          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7aNgYSF0ZX7Aciovl6VQpMPuraFJs4Px9Y3MxQ94Y5NVJHw/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <div class="contact-form">
+                          <h2>Get in Touch</h2>
+                          <p>Feel free to drop us a line below!</p>
+                           <form action="https://formspree.io/f/xannyvbn"
+                           method="POST">
+                            <!-- <input type="hidden" name="access_key" value="af2258d0-958e-459a-936d-3f44f2dd2525"> -->
+                            <input name="name" type="text" placeholder="Your Name" required>
+                            <input name="email" type="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Typing your message here......" required></textarea>
+                            <button type="submit">Send</button>
+                          </form> 
+
+                          <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7aNgYSF0ZX7Aciovl6VQpMPuraFJs4Px9Y3MxQ94Y5NVJHw/viewform?embedded=true" width="640" height="821" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
                         </div>
                       </section>
                       
@@ -262,16 +280,20 @@
                           <div class="footer-contact">
                             <div>
                               <i class="bx bx-phone"></i>
-                              <p>+3356 1589 2105</p>
+                              <p>+27 66 197 1707</p>
                             </div>
                             <div>
                               <i class="bx bx-envelope"></i>
-                              <p>hello@loremipsum.com</p>
+                              <p>teeradi.pty@gmail.com </p>
                             </div>
                             <div>
                               <i class="bx bx-map"></i>
-                              <p>32, Avenue ve Newyork, 321904 Newyork</p>
-                            </div>
+                              <p>11 Muisvoël avenue 
+                                Birch Acres 
+                                1618 
+                                </p>
+                              
+                          </div>
                           </div>
                         </div>
                       
@@ -279,31 +301,31 @@
                           <div>
                             <h3>About</h3>
                             <ul>
-                              <li><a href="#">Our Story</a></li>
-                              <li><a href="#">Awards</a></li>
-                              <li><a href="#">Our Team</a></li>
-                              <li><a href="#">Career</a></li>
+                              <li><a href="#about">Our Story</a></li>
+                              <!-- <li><a href="#">Awards</a></li> -->
+                              <!-- <li><a href="#">Our Team</a></li> -->
+                              <!-- <li><a href="#">Career</a></li> -->
                             </ul>
                           </div>
                           <div>
                             <h3>Company</h3>
                             <ul>
                               <li><a href="#">Our Services</a></li>
-                              <li><a href="#">Clients</a></li>
-                              <li><a href="#">Contact</a></li>
-                              <li><a href="#">Press</a></li>
+                              <!-- <li><a href="#">Blog</a></li> -->
+                              <li><a href="#contact">Contact</a></li>
+                              <!-- <li><a href="#">Press</a></li> -->
                             </ul>
                           </div>
                           <div>
                             <h3>Resources</h3>
                             <ul>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Newsletter</a></li>
-                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="assets/Terms_and_Conditions - .pdf" target="_blank">Terms and Conditions</a></li>
+                              <!-- <li><a href="#">Newsletter</a></li> -->
+                              <li><a href="assets/Privacy_Policy -.pdf" target="_blank">Privacy Policy</a></li>
                             </ul>
                           </div>
                           <div class="subscribe">
-                            <h3>Subscribe</h3>
+                            <h3>Terms & condition</h3>
                             <form>
                               <input type="email" placeholder="Email Address" required>
                               <button type="submit"><i class="bx bx-right-arrow-alt"></i></button>
@@ -316,7 +338,7 @@
                           <div class="social-media">
                             <a href="#"><i class="bx bxl-facebook"></i></a>
                             <a href="#"><i class="bx bxl-linkedin"></i></a>
-                            <a href="#"><i class="bx bxl-twitter"></i></a>
+                            <a href="https://wa.me/0661971707"><i class="bx bxl-whatsapp"></i></a>
                             <a href="#"><i class="bx bxl-instagram"></i></a>
                           </div>
                           <p>© 2024 TEERADI (Pty.) All Rights Reserved.</p>
